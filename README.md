@@ -7,7 +7,7 @@ A 2D Java adventure game built using Java
 ## Overview
 
 Treasure-Game is inspired by the [YouTube tutorial series](https://www.youtube.com/playlist?list=PL_QPQmz5C6WUF-pOQDsbsKbaBZqXj4qSq).  
-While some sprites and game mechanics are adapted from the tutorial, the project also includes original player and objects sprites and additional gameplay features 
+While some sprites and game mechanics are adapted from the tutorial, the project also includes custom player and objects sprites and original gameplay features 
 
 ---
 
