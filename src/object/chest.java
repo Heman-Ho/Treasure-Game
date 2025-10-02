@@ -9,7 +9,7 @@ public class chest extends SuperObject{
     public chest(){
         name = "Chest";
         try {
-            image = ImageIO.read(getClass().getResourceAsStream("/main/res/objects/chest.png"));
+            image = ImageIO.read(getClass().getResourceAsStream("/objects/chest.png"));
         }catch(IOException e){
             e.printStackTrace();
         }

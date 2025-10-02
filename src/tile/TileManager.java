@@ -23,7 +23,7 @@ public class TileManager {
         mapTileNum = new int[gp.maxWorldCol][gp.maxWorldRow];
 
         getTileImage();
-        loadMap("/main/res/maps/worldV2.txt");
+        loadMap("/maps/worldV2.txt");
     }
 
     public void getTileImage(){
@@ -80,7 +80,7 @@ public class TileManager {
         UtilityTool uTool = new UtilityTool();
         try{
             tile[index] = new Tile();
-            tile[index].image = ImageIO.read(getClass().getResourceAsStream("/main/res/tiles/"+imageName+".png"));
+            tile[index].image = ImageIO.read(getClass().getResourceAsStream("/tiles/"+imageName+".png"));
             tile[index].image = uTool.scaleImage(tile[index].image, gp.tileSize, gp.tileSize);
             tile[index].collision = collision;
         }catch(IOException e){
